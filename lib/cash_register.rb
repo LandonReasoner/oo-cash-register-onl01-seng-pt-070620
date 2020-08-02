@@ -14,6 +14,8 @@ class CashRegister
   def apply_discount
     @total -= (@discount.to_f/100 * @total)
     if discount == 0
-      "There "
+      "There is no discount to apply."
+    else 
+      
   end
 end
