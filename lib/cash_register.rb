@@ -23,7 +23,7 @@ class CashRegister
     if discount == 0
       "There is no discount to apply."
     else 
-      "After the discount, the total comes to $800."
+      "After the discount, the total comes to $#{."
     end
   end
   
