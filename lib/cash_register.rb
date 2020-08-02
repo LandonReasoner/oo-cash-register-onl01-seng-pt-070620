@@ -28,4 +28,6 @@ class CashRegister
   def items
     @items
   end
+  
+  def self 
 end
